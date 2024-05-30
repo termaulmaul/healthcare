@@ -7,12 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:356177541942:android:6db47e7fa148b802fd1197",
+        "mobilesdk_app_id": "1:356177541942:android:20ff447312d642bcfd1197",
         "android_client_info": {
-          "package_name": "com.example.healthcare"
+          "package_name": "com.example.praktikum_firebase_auth"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "356177541942-ofit70flun1qukkjdbn0reku4thbgiao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBiNoIy8yx7nxwILPwAlv0FJMy3Tiz0Whk"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356177541942-ofit70flun1qukkjdbn0reku4thbgiao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

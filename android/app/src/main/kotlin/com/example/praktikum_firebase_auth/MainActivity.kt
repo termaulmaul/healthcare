@@ -1,4 +1,4 @@
-package com.example.healthcare
+package com.example.praktikum_firebase_auth
 
 import io.flutter.embedding.android.FlutterActivity
 

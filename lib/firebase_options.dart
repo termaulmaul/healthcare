@@ -49,21 +49,22 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyBiNoIy8yx7nxwILPwAlv0FJMy3Tiz0Whk',
+    appId: '1:356177541942:android:20ff447312d642bcfd1197',
+    messagingSenderId: '356177541942',
+    projectId: 'healthcare-80586',
+    storageBucket: 'healthcare-80586.appspot.com',
+  );
+
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCDtqpiSQf789dDRGE_XX5CylFo8ek-VJQ',
-    appId: '1:356177541942:web:ea11fa0c336d9b74fd1197',
+    appId: '1:356177541942:web:76dfae77a44999bffd1197',
     messagingSenderId: '356177541942',
     projectId: 'healthcare-80586',
     authDomain: 'healthcare-80586.firebaseapp.com',
     storageBucket: 'healthcare-80586.appspot.com',
-    measurementId: 'G-07JJBT0SFE',
+    measurementId: 'G-EEEL332LSH',
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBiNoIy8yx7nxwILPwAlv0FJMy3Tiz0Whk',
-    appId: '1:356177541942:android:6db47e7fa148b802fd1197',
-    messagingSenderId: '356177541942',
-    projectId: 'healthcare-80586',
-    storageBucket: 'healthcare-80586.appspot.com',
-  );
 }
