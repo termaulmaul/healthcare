@@ -6,6 +6,7 @@ import '../ui/register.dart';
 import '../ui/searchpage.dart';
 import '../ui/article_page.dart'; // Import article_page.dart
 import '../ui/profile_page.dart'; // Import profile_page.dart
+import '../ui/check_page.dart'; // Import check_page.dart
 
 MaterialPageRoute _pageRoute({
   required Widget body,
@@ -28,11 +29,14 @@ Route? generateRoute(RouteSettings settings) {
     case rSearch:
       route = _pageRoute(body: SearchPage(), settings: settings);
       break;
-    case rArticle: // Menambahkan kasus untuk rArticle
+    case rArticle:
       route = _pageRoute(body: ArticlePage(), settings: settings);
       break;
-    case rProfile: // Menambahkan kasus untuk rProfile
+    case rProfile:
       route = _pageRoute(body: ProfilePage(), settings: settings);
+      break;
+    case rCheck: // Menambahkan kasus untuk rCheck
+      route = _pageRoute(body: CheckPage(), settings: settings);
       break;
     default:
       route = _pageRoute(body: HomeScreen(), settings: settings); // Default route
@@ -45,5 +49,6 @@ const String rLogin = '/login';
 const String rRegister = '/register';
 const String rHome = '/home';
 const String rSearch = '/search';
-const String rArticle = '/article'; 
-const String rProfile = '/profile'; 
+const String rArticle = '/article';
+const String rProfile = '/profile';
+const String rCheck = '/check'; // Menambahkan konstanta rCheck

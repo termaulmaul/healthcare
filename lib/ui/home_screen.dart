@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Navigator.pushNamed(context, rSearch);
         break;
       case 2:
-        // Navigate to Check Page
+        Navigator.pushNamed(context, rCheck); // Navigate to Check Page
         break;
       case 3:
         Navigator.pushNamed(context, rProfile); // Navigate to Profile Page
