@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utils/routes.dart';
+import '../utils/routes.dart'; // Tambahkan import ini
 
 class ProfilePage extends StatelessWidget {
   @override
@@ -84,8 +84,8 @@ class ProfilePage extends StatelessWidget {
                       actions: [
                         TextButton(
                           onPressed: () {
-                            // Proses logout
-                            Navigator.of(context).pop(); // Tutup dialog
+                            // Proses logout dan navigasi ke halaman login
+                            Navigator.of(context).pushReplacementNamed(rLogin);
                           },
                           child: Text("Ya"),
                         ),
