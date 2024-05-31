@@ -2,9 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:praktikum_firebase_auth/bloc/login/login_cubit.dart';
-import 'package:praktikum_firebase_auth/ui/home_screen.dart';
-import 'package:praktikum_firebase_auth/ui/phone_auth_screen.dart';
+import '../bloc/login/login_cubit.dart';
+import '../ui/home_screen.dart';
+import '../ui/phone_auth_screen.dart';
 
 import '../utils/routes.dart';
 

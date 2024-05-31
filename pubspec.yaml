@@ -70,6 +70,9 @@ flutter:
      - assets/images/article_logo1.png
      - assets/images/article_logo2.png
      - assets/images/article_logo3.png
+     - assets/images/yoga.png
+     - assets/images/breakfast.png
+     - assets/images/glukometer.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
